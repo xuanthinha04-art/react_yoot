@@ -26,8 +26,10 @@ const UserItem = ({
         ) :
         (
           <>
-            <span>{user.firstName}</span>
-            <button onClick={() => onStartEdit(user.id, user.name)} 
+            <span style={{ marginRight: '20px' }}>{user.firstName}</span>
+            <span style={{ marginRight: '20px' }}>{user.age}</span>
+            <span style={{ marginRight: '20px' }}>{user.email}</span>
+            <button onClick={() => onStartEdit(user.id, user.firstName)} 
               style={{marginRight: '20px', marginLeft: '20px', marginBottom: '20px'}}>
                   <Pencil/></button>
                   

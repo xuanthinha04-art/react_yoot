@@ -1,7 +1,8 @@
 import React from "react";
-import UserItem from "./UserItem";
+import UserItem from "./UserItemV3";
 
 const UserList = ({ users, ...props }: any) => {
+  console.log("Dữ liệu users nhận được:", users);
   return (
     <ol >
       {users.map((user: any) => (
@@ -13,4 +14,4 @@ const UserList = ({ users, ...props }: any) => {
   );
 };
 
-export default UserList;
+export default UserList

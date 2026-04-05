@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import User from './components/User'
+import User from './components/UserV3'
 
 function App() {
     const [count, setCount] = useState("");
